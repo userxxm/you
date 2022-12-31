@@ -1,0 +1,60 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(97, 97, 97, 0.644),rgba(56, 36, 87, 0.822)),url(backgroundimage/moon.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+}
+nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0; 
+}
+nav ul{
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  padding-right: 25px;
+}
+nav ul li{
+  display: inline-block;
+  margin: 10px 20px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+.container1{
+  position: absolute;
+  top: 130px;
+  left: 55px;
+  padding: 190px;
+  height: 50%;
+  width: 700px;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.212);
+  border-radius: 5%;
+}
+h1{
+  font-size: 22px;
+  color: #ffffffdc;
+}
+p{
+  font-size: 20px;
+  font-family: serif;
+  color: rgb(202, 202, 202);
+}
+q{
+  font-size: 20px;
+  font-family: serif;
+  color: rgb(202, 202, 202);
+}
